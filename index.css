@@ -1,0 +1,49 @@
+body {
+  background-image: url("./bg2.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: top center;
+  background-color: white;
+  text-align: center;
+  user-select: none;
+}
+p {
+  margin-top: 15px;
+  color: gray;
+  font-size: 14px;
+}
+p.smaller {
+  font-size: 12px;
+}
+a {
+  color: rgb(100, 100, 100);
+}
+
+.header {
+  user-select: none;
+  margin-top: 20%;
+  width: 50%;
+  border: none;
+  display: unset;
+}
+.qr {
+  user-select: none;
+  min-width: 80px;
+  width: 15%;
+  border: none;
+  display: unset;
+}
+.container {
+  position: relative;
+  margin: 0% 10%;
+  padding: 50% 0 0 0;
+  border: 5px solid black;
+  background: black;
+}
+.stream {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
